@@ -55,7 +55,7 @@ const Customizer = () => {
     try{
        setgeneratingImg(true);
 
-       const response = await fetch('https://newstylieserver.onrender.com',{
+       const response = await fetch('https://newstylieserver.onrender.com/',{
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
